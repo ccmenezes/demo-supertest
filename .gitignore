@@ -1,0 +1,18 @@
+# IDEs
+.idea
+vscode
+
+#IDEA
+.idea/*
+*.iml
+*.ipr
+
+#Mac OS
+.DS_Store
+
+#Allure
+.allure
+/*/allure-results/
+
+# node
+node_modules/
