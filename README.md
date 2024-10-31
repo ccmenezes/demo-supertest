@@ -26,7 +26,7 @@ docker build -t supertest-image .
 
 - Run a container and copy the report into a server or your PC
 ```bash
-docker run --name myrestnpm-container -v /home/claudia/allure-report:/demo-supertest/allure-report supertest-image --clean
+docker run --name mytest-container -v /home/<user-computer-name>/allure-report:/demo-supertest/allure-report supertest-image --clean
 ```
 
 ### Playground
@@ -70,6 +70,6 @@ After run this command the browser will open the report
 After performing the tests, you can delete the container and image.
 
 ```bash
-docker container rm -f myrestnpm-container  && docker image rm -f supertest-image
+docker container rm -f mytest-container  && docker image rm -f supertest-image
 ```
 <mark>The configuration was performed in a debian environment, keep it in mind.</mark>
