@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Install dev dependencies
-apt-get -y update && apt-get install -y wget default-jre
+apt-get -y update && apt-get install -y wget default-jre --no-install-recommends
 
 # Download allure report
 wget -c https://github.com/allure-framework/allure2/releases/download/2.31.0/allure_2.31.0-1_all.deb

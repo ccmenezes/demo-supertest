@@ -1,13 +1,16 @@
 {
-    "name": "demo-super-test",
-    "version": "1.0.0",
+    "name": "demo-supertest",
+    "version": "1.0.1",
     "description": "",
-    "main": "index.js",
-    "author": "",
+    "author": "Claudia Menezes",
     "license": "ISC",
+    "mocha": {
+      "extention": ["js"],
+      "recursive": true
+    },
     "scripts": {
-      "test": "mocha specs/test",
-      "test-report": "mocha specs/test --reporter allure-mocha"
+      "test": "mocha 'specs/test/*.spec.js'",
+      "test-report": "mocha 'specs/test/*.spec.js' --reporter allure-mocha"
     },
     "keywords": [
       "apitesting",

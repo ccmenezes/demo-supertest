@@ -18,4 +18,3 @@ RUN npm i
 
 # Run the tests and generate allure reports
 ENTRYPOINT ["sh", "-c", "npm run test-report && allure generate"]
-

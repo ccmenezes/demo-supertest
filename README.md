@@ -29,6 +29,12 @@ docker build -t supertest-image .
 docker run --name mytest-container -v /home/<user-computer-name>/allure-report:/demo-supertest/allure-report supertest-image --clean
 ```
 
+- To view the report, outside the folder allure-report run the command
+
+``` bash
+allure open
+```
+
 ### Playground
 
 If you need to play in our machine it's necessary to have node, java and allure installed in your computer.

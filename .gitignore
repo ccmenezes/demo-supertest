@@ -12,7 +12,8 @@ vscode
 
 #Allure
 .allure
-/*/allure-results/
+allure-results/
+allure-report/
 
 # node
 node_modules/
